@@ -1,0 +1,77 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Ubuntu-Light"; src: url("../fonts/Ubuntu-Light.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { text-decoration: none; -webkit-transition: 0.5s linear; -moz-transition: 0.5s linear; -ms-transition: 0.5s linear; -o-transition: 0.5s linear; transition: 0.5s linear; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Button Section Starts -------*/
+
+.bg-button { -webkit-box-align: center; align-items: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; height: 100vh; justify-content: center; }
+.read-more > a {
+  border: 2px solid rgb(0, 119, 255);
+  color: rgb(0, 119, 255);
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 1.8rem;
+  overflow: hidden;
+  padding: 10px 30px;
+  position: relative;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s linear;
+  -moz-transition: 0.5s linear;
+  -ms-transition: 0.5s linear;
+  -o-transition: 0.5s linear;
+  transition: 0.5s linear;
+}
+.read-more > a > span {
+  background-color: rgb(0, 119, 255);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  display: block;
+  height: 0;
+  position: absolute;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  -webkit-transition: height 1s, width 1s;
+  -moz-transition: height 1s, width 1s;
+  -ms-transition: height 1s, width 1s;
+  -o-transition: height 1s, width 1s;
+  transition: height 1s, width 1s;
+  width: 0;
+  z-index: -1;
+}
+.read-more > a:hover {
+  color: #ffffff;
+}
+.read-more > a:hover > span {
+  height: 700px;
+  width: 700px;
+}
+
+/*------- Button Section Ends -------*/

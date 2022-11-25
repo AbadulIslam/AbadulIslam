@@ -1,0 +1,272 @@
+/*
+higher resulation device
+ */
+@media only screen and (min-width: 1281px){
+
+
+}
+
+
+
+
+
+/*
+low dextop monitor or laptops
+ */
+@media only screen and (min-width: 1025px) and (max-width: 1280px){
+
+
+
+}
+
+
+
+
+/*tablet or big ipad
+
+ */
+@media only screen and (min-width: 991px) and (max-width: 1024px){
+
+    .text-capitalize h1{
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+    .banner-section img{
+        width:95%;
+        height: 99%;
+
+
+    }
+    .text-capitalize h1{
+        font-size: 45px;
+    }
+    .about-img img{
+      margin-left:182px;
+    }
+    .portfolio_content{
+        margin-bottom: 30px;
+    }
+
+    element.style {
+    }
+    .testmonial-contnet img {
+        margin-left: 182px;
+
+    }
+    .about-img img{
+        margin-bottom: 20px;
+    }
+    .bio-about{
+        padding-bottom: 10px;
+    }
+    .skill h2{
+        padding-bottom: 5px;
+    }
+    .skill p{
+        padding-bottom: 10px;
+    }
+    h2.text-capitalize.text-light.font-weight-bold.pt-2 {
+        margin-top: 37px;
+    }
+    .in-contactus-content {
+        margin-left: 226px;
+        padding-top: 20px;
+    }
+    .banner-section img {
+        width: 97%;
+        height: 83%;
+        margin-top: 44px;
+    }
+}
+
+/*tablet or big ipad landcapes
+
+ */
+
+
+
+
+/*big smrtphone
+
+ */
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    .banner-section img{
+        width:80%;
+        height: 99%;
+
+    }
+    .text-capitalize h1{
+        font-size: 20px;
+    }.text-capitalize h2{
+         font-size: 12px;
+     }.text-capitalize a{
+          width:90px;
+          font-size: 14px;
+          padding: 10px 18px;
+      }
+    .text-capitalize h3{
+        font-size: 15px;
+    }
+    .banner-animation{
+        padding-top:-15px;
+    }
+    .about-img img{
+        margin-left:89px;
+    }
+    .testmonial-contnet img {
+        margin-left: 152px;
+
+    }
+    .contact-left-content{
+        text-align: center !important;
+    }
+    .about-img img{
+        margin-bottom: 20px;
+    }
+    .bio-about{
+        padding-bottom: 10px;
+    }
+    .skill h2{
+        padding-bottom: 5px;
+    }
+    .skill p{
+        padding-bottom: 10px;
+    }
+    h2.text-capitalize.text-light.font-weight-bold.pt-2 {
+        margin-top: 37px;
+    }
+    .in-contactus-content {
+        margin-left: 159px;
+        padding-top: 20px;
+    }
+}
+
+
+
+
+
+/* all smallest device
+
+ */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .banner-section img{
+        width:80%;
+        height: 99%;
+
+    }
+    .text-capitalize h1{
+        font-size: 20px;
+    }.text-capitalize h2{
+         font-size: 12px;
+     }.text-capitalize a{
+          width:110px;
+          font-size: 18px;
+          padding: 8px 17px;
+      }
+      .banner-animation{
+          padding-top:-15px;
+      }
+    .portfolio_content{
+        margin-bottom: -60px;
+    }
+
+    h3.text-capitalize.font-weight-bold.text-center {
+        margin-top: 13px;
+    }
+    .testmonial-contnet img {
+        margin-left: 90px;
+
+    }
+    .contact-left-content{
+        text-align: center !important;
+    }
+    .about-img img{
+        margin-bottom: 20px;
+    }
+    .bio-about{
+        padding-bottom: 10px;
+    }
+    .skill h2{
+        padding-bottom: 5px;
+    }
+    .skill p{
+        padding-bottom: 10px;
+    }
+    h2.text-capitalize.text-light.font-weight-bold.pt-2 {
+        margin-top: 37px;
+    }
+    .in-contactus-content {
+        margin-left: 77px;
+        padding-top: 40px;
+    }
+    .banner-section img{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive image grid*/
+/* Mobile landscape width 320 */
+@media only screen and (max-width: 767px) {
+
+    .image_grid{
+        width:300px;
+    }
+
+    .image_grid li img{
+        width:220px;
+    }
+
+    .portfolio_4col .da-thumbs li article h3{
+        padding-top:70px;
+    }
+
+    .portfolio_3col .da-thumbs li article h3{
+        padding-top:50px;
+    }
+
+    .portfolio_2col .da-thumbs li article h3{
+        padding-top:53px !important;
+    }
+
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .image_grid{
+        width:450px;
+    }
+
+    .image_grid li{
+        width:178px !important;
+    }
+
+    .portfolio_4col .da-thumbs li article h3{
+        padding-top:58px;
+    }
+
+    .portfolio_3col .da-thumbs li article h3{
+        padding-top:34px;
+    }
+
+    .portfolio_2col .da-thumbs li article h3{
+        padding-top:23px !important;
+    }
+
+}
+
+
+
